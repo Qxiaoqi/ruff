@@ -1,0 +1,125 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #EFEFEF;
+}
+
+.bg-green {
+    background-color: #17BAA9;
+}
+
+.font-white {
+    color: #fff;
+}
+
+.container {
+    margin-top: 75px;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 320px 320px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.wrapper img {
+    height: 120px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.user-block {
+    grid-row: 1 / 3; 
+    padding: 20px 10px;
+}
+
+.user-content {
+    height: 100%;
+    border-radius: 8px;
+    background-image: linear-gradient( 135deg, #92FFC0 10%, #002661 100%);
+}
+
+.light-intensity-block {
+    grid-column: 2 / 3;
+    padding: 20px 10px;
+}
+
+.light-intensity {
+    height: 100%;
+    /* background-color: #00BBD3; */
+    background-image: linear-gradient( 135deg, #2AFADF 10%, #4C83FF 100%);
+    border-radius: 8px;
+}
+
+.light-intensity span {
+    color: #fff;
+    font-size: 40px;
+    margin-left: 30px;
+    line-height: 170px;
+    vertical-align: top;
+}
+
+.temperature-block {
+    grid-column: 3 / 4;
+    padding: 20px 10px;
+}
+
+.temperature {
+    height: 100%;
+    /* background-color: #3E97F1; */
+    background-image: linear-gradient( 135deg, #43CBFF 10%, #9708CC 100%);
+    border-radius: 8px;
+}
+
+.temperature span {
+    color: #fff;
+    font-size: 40px;
+    margin-left: 30px;
+    line-height: 170px;
+    vertical-align: top;
+}
+
+.humidity-block {
+    grid-column: 4 / 5;
+    padding: 20px 10px;
+}
+
+.humidity {
+    height: 100%;
+    /* background-color: #00C8EA; */
+    background-image: linear-gradient( 135deg, #FFA6B7 10%, #1E2AD2 100%);
+    border-radius: 8px;
+}
+
+.humidity span {
+    color: #fff;
+    font-size: 40px;
+    margin-left: 30px;
+    line-height: 170px;
+    vertical-align: top;
+}
+
+.data-block {
+    text-align: center;    
+}
+
+.data-block span{
+    line-height: 110px;
+    font-size: 60px;
+}
+
+.function-module-block {
+    grid-column: 2 / 5;
+    padding: 10px 10px 20px 10px;
+}
+
+.function-module {
+    height: 100%;
+    background-color: rgb(0, 152, 253);
+    border-radius: 8px;
+}
+

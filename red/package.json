@@ -1,0 +1,15 @@
+{
+    "name": "red",
+    "version": "0.1.0",
+    "description": "",
+    "author": "",
+    "main": "src/index.js",
+    "ruff": {
+        "dependencies": {
+            "ruff-v1-infrared-sender": "^0.3.7",
+            "ruff-v1-infrared-receiver": "^0.3.7",
+            "sound-01": "^1.1.6"
+        },
+        "version": 1
+    }
+}

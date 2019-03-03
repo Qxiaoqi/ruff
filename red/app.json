@@ -1,0 +1,44 @@
+{
+    "devices": [
+        {
+            "id": "IRT-01",
+            "model": "IRT-01",
+            "driver": "ruff-v1-infrared-sender",
+            "inputs": {
+                "gpio": {
+                    "type": "gpio",
+                    "reserve": "gpio-12/gpio"
+                }
+            }
+        },
+        {
+            "id": "IRR-01",
+            "model": "IRR-01",
+            "driver": "ruff-v1-infrared-receiver",
+            "inputs": {
+                "gpio": {
+                    "type": "gpio",
+                    "reserve": "gpio-11/gpio"
+                }
+            }
+        },
+        {
+            "id": "sound",
+            "model": "SOUND-01",
+            "driver": "sound-01",
+            "args": {
+                "interval": 1000,
+                "enabled": false
+            },
+            "inputs": {
+                "gpio": {
+                    "type": "gpio",
+                    "args": {
+                        "direction": "in",
+                        "edge": "none"
+                    }
+                }
+            }
+        }
+    ]
+}
